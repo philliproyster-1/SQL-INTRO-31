@@ -9,3 +9,13 @@
 -- +------+----------------------+------+--------+
 
 
+SELECT name, losses 
+FROM teams
+ORDER BY wins
+LIMIT 3;
+
+
+SELECT name, losses 
+FROM teams
+ORDER BY lossess DESC
+LIMIT 3;
